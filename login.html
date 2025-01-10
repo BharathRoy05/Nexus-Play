@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <title>Login Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-image:url("images/iplo.webp");
+            display: flex;
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .link-button
+        {width: 80%;
+            padding: 10px;
+            background-color: #191a1a;
+            border: none;
+             
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;}
+
+        .input-group label {
+            display: block;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .input-group input:focus {
+            border-color: #5f9ea0;
+        }
+        .submit-btn button {
+            width: 100%;
+            padding: 10px;
+            background-color: #5f9ea0;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn button:hover {
+            background-color: #4e8b88;
+            
+        }
+        
+        
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login Form</Form></h2>
+        
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="submit-btn">
+                <button type="submit">Login</button>
+            </div>
+            <a href="forms.html" class="link-button">register</a>
+        
+    </div>
+
+</body>
+</html>

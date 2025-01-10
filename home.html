@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<head>
+    <style>* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #121212;
+        color: #ffffff;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #1f1f1f;
+    }
+    
+    .logo {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 100px 20px;
+        background: url('hero-bg.jpg') no-repeat center center/cover;
+    }
+    
+    .hero h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .hero p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .btn {
+        background-color: #ff4081;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+        background-color: #e91e63;
+    }
+    
+    .featured-games {
+        padding: 50px 20px;
+        text-align: center;
+    }
+    
+    .featured-games h2 {
+        margin-bottom: 30px;
+    }
+    
+    .game-card {
+        display: inline-block;
+        width: 200px;
+        margin: 20px;
+        background-color: #121212;
+        border-radius: 10px;
+        padding: 15px;
+        transition: transform 0.3s;
+    }
+    
+    .game-card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .game-card h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    
+    .game-card p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .game-card:hover {
+        transform: scale(1.05);
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #1f1f1f;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Nexus Play</div>
+        
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to NEXUS PLAY</h1>
+            <p>Your ultimate destination for the latest games and news.</p>
+            <a href="#games" class="btn">Explore Games</a>
+        </section>
+
+        <section id="games" class="featured-games">
+            <h2>Featured Games</h2>
+            <div class="game-card">
+                <img src="images/core.jpg" alt="Game 1">
+                <h3>CORE</h3>
+                <p>Short description of Game 1.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/acv.jpg" alt="Game 2">
+                <h3>AC mirage</h3>
+                <p>Short description of Game 2.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/avengers.jpg" alt="Game 3">
+                <h3>AVENGERS</h3>
+                <p>Short description of Game 3.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+        </section>
+        <section id="games" class="featured-games">
+            <h2>Action Games</h2>
+            <div class="game-card">
+                <img src="images/acv.jpg" alt="Game 1">
+                <h3>Valhalla</h3>
+                <p>Short description of Game 1.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/bat.jpg" alt="Game 2">
+                <h3>Battlefield</h3>
+                <p>Short description of Game 2.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/bt.jpg" alt="Game 3">
+                <h3>Call Of Duty</h3>
+                <p>Short description of Game 3.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+        </section>
+        <section id="games" class="featured-games">
+            <h2>Adventure Games</h2>
+            <div class="game-card">
+                <img src="images/lara.jpg" alt="Game 1">
+                <h3>Tomb Raider</h3>
+                <p>Short description of Game 1.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/sot.jpg" alt="Game 2">
+                <h3>Sea Of Theives</h3>
+                <p>Short description of Game 2.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/bt2.jpg" alt="Game 3">
+                <h3>Batgirl</h3>
+                <p>Short description of Game 3.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+        </section>
+        <section id="games" class="featured-games">
+            <h2>Casual Games</h2>
+            <div class="game-card">
+                <img src="images/ss.jpg" alt="Game 1">
+                <h3>Among Us</h3>
+                <p>Short description of Game 1.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/sf.jpg" alt="Game 2">
+                <h3>Mortal Kombat</h3>
+                <p>Short description of Game 2.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/fg.jpg" alt="Game 3">
+                <h3>FAll Guys</h3>
+                <p>Short description of Game 3.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+        </section>
+        <section id="games" class="featured-games">
+            <h2>strategy games</h2>
+            <div class="game-card">
+                <img src="images/jl.jpg" alt="Game 1">
+                <h3>Deadshot</h3>
+                <p>Short description of Game 1.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/tron.jpg" alt="Game 2">
+                <h3>Tron</h3>
+                <p>Short description of Game 2.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/ts.jpg" alt="Game 3">
+                <h3>Assualt</h3>
+                <p>Short description of Game 3.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+        </section>
+        <section id="games" class="featured-games">
+            <h2>Horror Games</h2>
+            <div class="game-card">
+                <img src="images/hr1.jpg" alt="Game 1">
+                <h3>Dying Light</h3>
+                <p>Short description of Game 1.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/hr2.jpg" alt="Game 2">
+                <h3>Back For Blood</h3>
+                <p>Short description of Game 2.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="images/hr3.jpg" alt="Game 3">
+                <h3>Friday 13th</h3>
+                <p>Short description of Game 3.</p>
+                <a href="#" class="btn">Play Now</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
